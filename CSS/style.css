@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* css welcome */
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.video {
+    position: relative;
+    align-items: center;
+    z-index: -1;
+    margin: -2%;
+}
+body {
+    overflow: hidden;
+    font-family: 'Special Elite', cursive;
+    background-color: black;
+
+  }
+  .btnMisiones {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgb(25 25 28);
+    border: 1px solid transparent;
+    font-family: 'Special Elite', cursive;
+    color: grey;
+    font-size: 200%;
+   
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .btnInstrucciones {
+    position: absolute;
+    top: 32%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgb(30, 29, 29);
+    border: 1px solid transparent;
+    font-family: 'Special Elite', cursive;
+    color: grey;
+    font-size: 200%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #btnNueva {
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color:  rgb(25 25 28);
+    border: 1px solid transparent;
+    font-family: 'Special Elite', cursive;
+    color: grey;
+    font-size: 200%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+ 
+
+  #texto1 {
+    display: none;
+    color: aliceblue;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    margin-right: 45%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Special Elite', cursive;
+  }
+
+  #texto2 {
+    display: none;
+    color: aliceblue;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Special Elite', cursive;
+  }
+
+.negro {
+  margin: 1%;
+  position: absolute;
+  top: 37%;
+  left: 3%;
+
+}
+
+/* css prova1 */
+    
+    .btnEnviar {
+        position: absolute;
+        top: 70%;
+        left: 57%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    
+    .btnEscribir {
+        position: absolute;
+        top: 70%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    
+
+#foto1 {
+    position: absolute;
+    position: absolute; 
+    top:20%; 
+    left:20%;
+    width:60%;
+    height:65%;
+}
+
+.palabras{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;}
+
+
+/* css prova3 */
+    
+
+.laberinto {
+    position: absolute;
+    top: -25%;
+    position: absolute;
+}
+
+.btnLab{
+    position: absolute;
+    top: 83%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.enviarLab{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* final */
+.btnPartida {
+    position: absolute;
+    top: 42%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family: 'Special Elite', cursive;
+    color: grey;
+    font-size: 200%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+.btnInicio {
+    position: absolute;
+    top: 55%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family: 'Special Elite', cursive;
+    color: grey;
+    font-size: 200%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  
+#felicidades{
+    display: none;
+    color: aliceblue;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    margin-right: 45%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Special Elite', cursive;
+  }
+
+
+
+    /* laberinto */
+    #info {text-align:center;}
+    #boxmodel {position:absolute; top: 35%; left: 35%; width:365px; height:365px; margin:0 auto;}
+    a#maze, a#maze:visited {width:355px; height:355px; background:#000; position:absolute; top:0; left:0; z-index: 1;}
+    a#maze span {display:none;}
+
+
+    a#a0, a#a3, a#a8, a#a9, a#b6, a#b4, a#c0, a#xc1, a#xc4, a#c6, a#d6, a#d7, a#e0, a#e4, a#g0, a#g4, a#g6, a#g8, a#h1, a#i4, a#i8, a#j5 {width:30px; height:30px; background:#eef url(grey.gif); position:absolute; z-index:10;}
+     
+    a#a1, a#a2, a#a4, a#a5, a#a6, a#a7, a#b1, a#b2, a#b5, a#b7, a#c8, a#d3, a#d8, a#e1, a#e2, a#e3, a#e5, a#f1, a#f8, a#f9, a#g7, a#h2, a#h7, a#h9, a#i5, a#i6, a#j2, a#j3, a#j6, a#j7 {width:35px; height:30px; background:#eef url(grey.gif); position:absolute; z-index:10;}
+     
+    a#b0, a#b3, a#b8, a#xc3, a#c9, a#d0, a#d2, a#d5, a#d9, a#e6, a#e7, a#e8, a#e9, a#f0, a#f2, a#f3, a#f5, a#f6, a#f7, a#g2, a#g3, a#g5, a#h3, a#h4, a#h6, a#h8, a#i0, a#i1, a#i2, a#i9, a#j0, a#j1, a#j8, a#j9 {width:30px; height:35px; background:#eef url(grey.gif); position:absolute; z-index:10;}
+     
+    a#b9, a#xc2, a#xc5, a#c7, a#d1, a#d4, a#f4, a#g1, a#g9,a#h0, a#h5, a#i3, a#i7, a#j4 {width:35px; height:35px; background:#eef url(grey.gif); position:absolute; z-index:10;}
+     
+    a#d3, a#j3, a#j7 {width:40px;}
+    a#d4, a#j4 {width:30px;}
+     
+    a#j5 span {display:none;}
+     
+    a#a0 {top:5px; left:5px;}
+    a#a1 {top:5px; left:35px;}
+    a#a2 {top:5px; left:70px;}
+    a#a3 {top:5px; left:110px;}
+    a#a4 {top:5px; left:140px;}
+    a#a5 {top:5px; left:175px;}
+    a#a6 {top:5px; left:210px;}
+    a#a7 {top:5px; left:245px;}
+    a#a8 {top:5px; left:285px;}
+    a#a9 {top:5px; left:320px;}
+     
+    a#b0 {top:35px; left:5px;}
+    a#b1 {top:40px; left:35px;}
+    a#b2 {top:40px; left:70px;}
+    a#b3 {top:35px; left:110px;}
+    a#b4 {top:40px; left:145px;}
+    a#b5 {top:40px; left:175px;}
+    a#b6 {top:40px; left:215px;}
+    a#b7 {top:40px; left:245px;}
+    a#b8 {top:35px; left:285px;}
+    a#b9 {top:35px; left:315px;}
+     
+    a#c0 {top:75px; left:5px;}
+    a#xc1 {top:75px; left:40px;}
+    a#xc2 {top:70px; left:70px;}
+    a#xc3 {top:70px; left:110px;}
+    a#xc4 {top:75px; left:145px;}
+    a#xc5 {top:70px; left:175px;}
+    a#c6 {top:75px; left:215px;}
+    a#c7 {top:70px; left:245px;}
+    a#c8 {top:75px; left:280px;}
+    a#c9 {top:70px; left:320px;}
+     
+    a#d0 {top:105px; left:5px;}
+    a#d1 {top:105px; left:35px;}
+    a#d2 {top:105px; left:75px;}
+    a#d3 {top:110px; left:105px;}
+    a#d4 {top:105px; left:145px;}
+    a#d5 {top:105px; left:180px;}
+    a#d6 {top:110px; left:215px;}
+    a#d7 {top:110px; left:250px;}
+    a#d8 {top:110px; left:280px;}
+    a#d9 {top:105px; left:320px;}
+     
+    a#e0 {top:145px; left:5px;}
+    a#e1 {top:145px; left:35px;}
+    a#e2 {top:145px; left:70px;}
+    a#e3 {top:145px; left:105px;}
+    a#e4 {top:145px; left:145px;}
+    a#e5 {top:145px; left:175px;}
+    a#e6 {top:140px; left:215px;}
+    a#e7 {top:140px; left:250px;}
+    a#e8 {top:140px; left:285px;}
+    a#e9 {top:140px; left:320px;}
+     
+    a#f0 {top:175px; left:5px;}
+    a#f1 {top:180px; left:35px;}
+    a#f2 {top:175px; left:75px;}
+    a#f3 {top:175px; left:110px;}
+    a#f4 {top:175px; left:140px;}
+    a#f5 {top:175px; left:180px;}
+    a#f6 {top:175px; left:215px;}
+    a#f7 {top:175px; left:250px;}
+    a#f8 {top:180px; left:280px;}
+    a#f9 {top:180px; left:315px;}
+     
+    a#g0 {top:215px; left:5px;}
+    a#g1 {top:210px; left:35px;}
+    a#g2 {top:210px; left:75px;}
+    a#g3 {top:210px; left:110px;}
+    a#g4 {top:215px; left:145px;}
+    a#g5 {top:210px; left:180px;}
+    a#g6 {top:215px; left:215px;}
+    a#g7 {top:215px; left:245px;}
+    a#g8 {top:215px; left:285px;}
+    a#g9 {top:210px; left:315px;}
+     
+    a#h0 {top:245px; left:0;}
+    a#h1 {top:250px; left:40px;}
+    a#h2 {top:250px; left:70px;}
+    a#h3 {top:245px; left:110px;}
+    a#h4 {top:245px; left:145px;}
+    a#h5 {top:245px; left:175px;}
+    a#h6 {top:245px; left:215px;}
+    a#h7 {top:250px; left:245px;}
+    a#h8 {top:245px; left:285px;}
+    a#h9 {top:250px; left:315px;}
+     
+    a#i0 {top:280px; left:5px;}
+    a#i1 {top:280px; left:40px;}
+     
+    a#i2 {top:280px; left:75px;}
+    a#i3 {top:280px; left:105px;}
+    a#i4 {top:285px; left:145px;}
+    a#i5 {top:285px; left:175px;}
+    a#i6 {top:285px; left:210px;}
+    a#i7 {top:280px; left:245px;}
+    a#i8 {top:285px; left:285px;}
+    a#i9 {top:280px; left:320px;}
+     
+    a#j0 {top:315px; left:5px;}
+    a#j1 {top:315px; left:40px;}
+    a#j2 {top:320px; left:70px;}
+    a#j3 {top:320px; left:105px;}
+    a#j4 {top:315px; left:145px;}
+    a#j5 {top:320px; left:180px;}
+    a#j6 {top:320px; left:210px;}
+    a#j7 {top:320px; left:245px;}
+    a#j8 {top:315px; left:285px;}
+    a#j9 {top:315px; left:320px;}
+     
+    a#a0:hover, a#a1:hover, a#a2:hover, a#a3:hover, a#a4:hover, a#a5:hover, a#a6:hover, a#a7:hover, a#a8:hover, a#a9:hover, a#b0:hover, a#b1:hover, a#b2:hover, a#b3:hover, a#b4:hover, a#b5:hover, a#b6:hover, a#b7:hover, a#b8:hover, a#b9:hover, a#c0:hover, a#xc1:hover, a#xc2:hover, a#xc3:hover, a#xc4:hover, a#xc5:hover, a#c6:hover, a#c7:hover, a#c8:hover, a#c9:hover, a#d0:hover, a#d1:hover, a#d2:hover, a#d3:hover, a#d4:hover, a#d5:hover, a#d6:hover, a#d7:hover, a#d8:hover, a#d9:hover, a#e0:hover, a#e1:hover, a#e2:hover, a#e3:hover, a#e4:hover, a#e5:hover, a#e6:hover, a#e7:hover, a#e8:hover, a#e9:hover, a#f0:hover, a#f1:hover, a#f2:hover, a#f3:hover, a#f4:hover, a#f5:hover, a#f6:hover, a#f7:hover, a#f8:hover, a#f9:hover, a#g0:hover, a#g1:hover, a#g2:hover, a#g3:hover, a#g4:hover, a#g5:hover, a#g6:hover, a#g7:hover, a#g8:hover, a#g9:hover, a#h0:hover, a#h1:hover, a#h2:hover, a#h3:hover, a#h4:hover, a#h5:hover, a#h6:hover, a#h7:hover, a#h8:hover, a#h9:hover, a#i0:hover, a#i1:hover, a#i2:hover, a#i3:hover, a#i4:hover, a#i5:hover, a#i6:hover, a#i7:hover, a#i8:hover, a#i9:hover, a#j0:hover, a#j1:hover, a#j2:hover, a#j3:hover, a#j4:hover, a#j5:hover, a#j6:hover, a#j7:hover, a#j8:hover, a#j9:hover {background:#ddd url(smile.gif) 0 0 no-repeat; cursor: crosshair;}
+     
+    a#e9:hover, a#j9:hover {width:35px; left:315px;}
+    a#e8:hover {width:35px;}
+    a#h5:hover, a#a2:hover, a#c8:hover {width:40px;}
+    a#e4:hover {height:35px; top:140px;}
+    a#d4:hover, a#a7:hover, a#c6:hover {height:40px;}
+    a#f6:hover {width:35px; left:210px;}
+    a#f9:hover {border-bottom:5px solid #000; z-index:50;}
+    * html a#f9:hover {height:35px; height:30px;}
+     
+    a#j5:hover {z-index:500;}
+    a#j5:hover span{display:block; background-image: url(../img/roma.png); position:absolute; top:-320px; left:-180px; width:355px; height:355px;}
+     
+    a#maze:hover {background:#ffe; z-index:500;}
+    a#maze:hover span{display:block; position:absolute; width:355px; height:355px; cursor: crosshair; top:0; left:0;}
+     
+    a#h0 {background:#30ff028e url(arrow.gif) 0 0 no-repeat;}
+    a#j5 {background-color: rgb(255, 0, 0);}
+     
+    /* laberinto */
+
